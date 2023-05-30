@@ -1,5 +1,9 @@
 # Quiz-JS: What type of traveler are you?
 
+## Premise
+
+This website was created as the second of four projects concerning the Computer Engineering course "Databases and Web programming" (12 credits)
+
 ## Install instruction
 The website does not require any specific installations as it is built using pure HTML, CSS, and JavaScript. Therefore, all you need to do is download the file and open the HTML file.
 

@@ -1,6 +1,6 @@
 # Quiz-JS: What type of traveler are you?
 
-##Install instruction
+## Install instruction
 The website does not require any specific installations as it is built using pure HTML, CSS, and JavaScript. Therefore, all you need to do is download the file and open the HTML file.
 
 To access the website, follow these steps:

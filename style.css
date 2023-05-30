@@ -1,0 +1,189 @@
+article {
+    margin: auto;
+    width: 700px;
+}
+
+#author {
+    font-size: 14px;
+}
+
+body {
+    color: #222222;
+    font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 18px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    height: 80px;
+}
+
+header div,
+header h1 {
+    display: flex;
+    flex-grow: 1;
+}
+
+header div,
+header div span,
+header h1 {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+
+header div {
+    justify-content: flex-end;
+}
+
+header div span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #ffee00;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    margin: 0 3px;
+    transform: rotate(-30deg);
+}
+
+header h1 {
+    color: #ee3322;
+    font-family: 'Helvetica', sans-serif;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.choice-grid img.checkbox {
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+p {
+    margin: 18px 0;
+}
+
+.question-name {
+    align-items: center;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 425px;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.question-name h1 {
+    background-color: rgba(255,255,255, 0.9);
+    color: black;
+    font-family: 'Pangolin', 'Trebuchet MS', cursive;
+    font-size: 60px;
+    padding: 10px;
+    max-width: 75%;
+}
+
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice-grid div{
+    width:32.5%;
+    margin-bottom: 20px;
+    box-sizing: border-box; /*include padding e margin all'interno di width e height*/
+    padding:10px;
+    background-color:#f4f4f4;
+    border:1px solid #dcdcdc ;
+}
+
+.choice-grid div img{
+    width: 100%;
+    height: 170px;
+}
+
+.choice-grid div.colorato{
+    background-color: #cfe3ff;
+}
+
+.opaco{
+    opacity: 0.6;
+}
+
+button:hover{
+    background-color: #e0e0e0;
+}
+
+button{
+    background-color:#cecece;
+    width: 100%;
+    font-size:20px;
+    height: 50px;
+}
+
+.response{
+    display: none;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.response-margin{
+    margin-bottom:18px;
+}
+
+.response h1{
+    margin:0;
+}
+
+.Responsevisibile{
+    display: inherit;
+}
+
+@media (max-width:700px){
+    header div{
+        display: none;
+    }
+    .question-name{
+        background-size: 100% 100%;
+    }
+    article{
+        width:95%;
+    }
+}
+
+
+@media (max-width:500px){
+    .choice-grid div{
+        width: 49%;
+    }
+    .question-name{
+        height: 200px;
+        background-size: 100% 100%;
+    }
+    .question-name h1{
+        font-size:30px;
+    }
+}
+
+
+
+
+

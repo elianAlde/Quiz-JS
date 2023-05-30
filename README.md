@@ -24,7 +24,4 @@ This project is a website that features a quiz to determine what type of travele
  - Which transport do you prefer?
  - Which activity do you prefer?
 
-You will need to select only one option for each question as this example:
-![Image](https://github.com/elianAlde/Quiz-JS-/assets/117550137/ae51a222-924b-4bc1-8d14-e84a2eda9eb7)
-
-And at the end, you will receive a result based on your answers.
+You will need to select only one option for each question and at the end, you will receive a result based on your answers.
